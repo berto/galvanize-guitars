@@ -26,12 +26,11 @@ function changeImage(event) {
 }
 
 function unfavorite(event) {
-  console.log(this.parentElement.parentElement.remove());
+  this.parentElement.parentElement.remove();
 }
 
 $.get('guitars.json')
   .then(function(data) {
-    console.log(data);
     $specialImage.attr('src', data['weekly-special'].image);
     $specialInfo.children('#name').text('name: ' + data['weekly-special'].name)
     $specialInfo.children('#price').text('price: $' + data['weekly-special'].price)
