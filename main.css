@@ -22,4 +22,46 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   padding: 20px;
+  border-radius: 10px;
+}
+main  {
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.left, .right{
+  box-sizing: border-box;
+  display: inline;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.left  {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+.weekly-special  {
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+  display: block;
+  border-top: 1px solid black;
+}
+
+.weekly-special > h3  {
+  text-align: center;
+}
+.weekly-special > p  {
+  margin-left: 7rem;
+}
+
+.img-responsive  {
+  padding-bottom: 20px
 }
