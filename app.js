@@ -1,23 +1,28 @@
 var $favorites = $('.favorites');
 var $selectedImage = $('.selected-img > img');
+var $unfavorite = $('button');
 $favorites.click(changeImage);
+$unfavorite.click(unfavorite);
 
 function changeImage(event) {
-  console.log(this.children[0]);
-  switch (this.children[0]) {
-    case '<td>Jackson - Electric</td>':
-      console.log("jackson Electric");
+  switch (this.children[0].innerText) {
+    case 'Jackson - Electric':
+      $selectedImage.attr('src', 'assets/guitar1.jpg');
       break;
-    case "<td>Ibanoz - Electric</td>":
-      console.log("ibanoz");
+    case "Ibanoz - Electric":
+      $selectedImage.attr('src', 'assets/guitar2.jpg');
       break;
-    case "<td>Jackson - Orange Electric</td>":
-      console.log("jackson orange");
+    case "Jackson - Orange Electric":
+      $selectedImage.attr('src', 'assets/guitar3.png');
       break;
-    case "<td>Grand Concert - Acoustic</td>":
-      console.log("grand Concert");
+    case "Grand Concert - Acoustic":
+      $selectedImage.attr('src', 'assets/guitar4.png');
       break;
     default:
 
   }
+}
+
+function unfavorite(event) {
+  console.log(this.parentElement.parentElement.remove());
 }
