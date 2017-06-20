@@ -3,27 +3,27 @@
     {
       "name": "Jackson - Electric",
       "image": "./assets/guitar1.jpg",
-      "price": 389.00 
+      "price": 389.00
     },
     {
       "name": "Ibanoz - Electric",
       "image": "./assets/guitar2.jpg",
-      "price": 549.99  
+      "price": 549.99
     },
     {
       "name": "Jackson - Orange Electric",
-      "image": "./assets/guitar3.jpg",
-      "price": 489.99 
+      "image": "./assets/guitar3.png",
+      "price": 489.99
     },
     {
       "name": "Grand Concert - Acoustic",
-      "image": "./assets/guitar4.jpg",
-      "price": 365.50 
+      "image": "./assets/guitar4.png",
+      "price": 365.50
     }
   ],
   "weekly-special": {
     "name": "Fender - Acoustic",
     "image": "./assets/guitar5.png",
-    "price": 299.99 
+    "price": 299.99
   }
 }
