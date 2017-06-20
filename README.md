@@ -1,3 +1,6 @@
+WIREFRAME: https://wireframe.cc/D5jTu7
+URL: https://galvanize-guitars-mattdrummy.firebaseapp.com
+
 # Galvanize Guitars
 
 To complete this project, you'll need to:
@@ -10,9 +13,9 @@ To complete this project, you'll need to:
 
 ## Narrative
 
-You are making a website prototype for a local guitar store. They want you to start by designing 
-the user home page. This page will display basic information about the company, the weekly 
-guitar deal, and the user's list of favorite guitars. 
+You are making a website prototype for a local guitar store. They want you to start by designing
+the user home page. This page will display basic information about the company, the weekly
+guitar deal, and the user's list of favorite guitars.
 
 ## User Stories
 
@@ -21,17 +24,17 @@ Your product owner has created a list of prioritized user stories for you to wor
 ```
 As a user, I need to see the name of the company
 As a user, I need to be able to navigate to the store so I can browse for guitars
-As a company, we need our contact information to be accessible so that our users can easily contact us 
-As a user, I need to see the weekly guitar deal 
-As a user, I need to see my list of favorited guitars 
+As a company, we need our contact information to be accessible so that our users can easily contact us
+As a user, I need to see the weekly guitar deal
+As a user, I need to see my list of favorited guitars
 As a user, I need a way to unfavorite a guitar from my list
 As a company, we need to communicate that our material is copyrighted
-As a company, we need a color theme and font style to create an aesthetically pleasing brand that our users can recognize 
+As a company, we need a color theme and font style to create an aesthetically pleasing brand that our users can recognize
 ```
 ## Wireframe
 
 Before you code anything, read through the user stories. Design a wireframe that will improve
-the *user experience* by implement effective visual hierarchy and design techniques like balance, 
+the *user experience* by implement effective visual hierarchy and design techniques like balance,
 movement, forgiveness, etc.
 
 ## Notes
@@ -45,7 +48,6 @@ movement, forgiveness, etc.
 
 ## Stretch - API
 
-Mock data is provided in the `guitars.json` file (the images are included in the `assets` directory). 
-Include the files into your project and request the data to populate the user's weekly guitar deal 
-and favorites list. 
-
+Mock data is provided in the `guitars.json` file (the images are included in the `assets` directory).
+Include the files into your project and request the data to populate the user's weekly guitar deal
+and favorites list.
