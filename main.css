@@ -70,3 +70,11 @@ main  {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+.copyright  {
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+}
