@@ -5,8 +5,16 @@ body  {
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover  {
   background-color: #F5770A;
 }
+
+.nav > li > a  {
+  color: white;
+}
+
+.nav > li > a:hover  {
+  background-color: grey;
+}
 .page-header {
-  border-bottom: 1px solid #F5770A;
+  border-bottom: 0px;
 }
 .page-header > h1, .page-header > ul  {
   display: inline-block;
@@ -14,27 +22,30 @@ body  {
 }
 
 .page-header > h1  {
-  margin-right: 30%;
+  margin-right: 40%;
 }
 
+.page-header > h1 > small  {
+  color: black;
+}
 .panel  {
+  align-self: flex-start;
   text-align: center;
   width: 30rem;
-  height: 10rem;
+  height: auto;
   box-sizing: border-box;
   margin: 0;
   border: 0px;
-  background-color: #ffe36c;
+  background-color: rgb(240,240,240);
 }
 
 footer {
-  background-color: #e0c85f;
+  background-color: rgb(30,30,30);
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   padding: 20px;
-  border-radius: 10px;
 }
 main  {
   box-sizing: border-box;
@@ -46,17 +57,29 @@ main  {
   box-sizing: border-box;
   display: inline;
   border: 2px solid #F5770A;
-  margin: 20px;
   padding: 20px;
+  margin-bottom: 20px;
   background-color: #ffffff;
+}
+@media (max-width: 600px) {
+  main {
+    display: block;
+    background-color: white;
+  }
+  .left, .right  {
+    background: none;
+    border: 0;
+  }
 }
 
 .left  {
   width: 40%;
+  margin-right: 20px;
 }
 
 .right {
   width: 60%;
+  margin-left: 20px;
 }
 
 .weekly-special  {
@@ -90,4 +113,13 @@ main  {
   justify-content: center;
   align-items: center;
   margin: 0px 20px;
+}
+
+.strings {
+  width: 66%;
+}
+.strings > div  {
+  width: 100%;
+  border: 1px solid white;
+  margin: 20px;
 }
