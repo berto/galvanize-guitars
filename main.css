@@ -63,5 +63,10 @@ main  {
 }
 
 .img-responsive  {
-  padding-bottom: 20px
+  padding-bottom: 20px;
+}
+
+.special-img  {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
